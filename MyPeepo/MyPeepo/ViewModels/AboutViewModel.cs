@@ -9,8 +9,8 @@ namespace MyPeepo.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "About";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
+            Title = "Inicio";
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://google.com/search?q=osos+maduros"));
         }
 
         public ICommand OpenWebCommand { get; }
