@@ -19,7 +19,7 @@ namespace MyPeepo.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "Tareas";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 

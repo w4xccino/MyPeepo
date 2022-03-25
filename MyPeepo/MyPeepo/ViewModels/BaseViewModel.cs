@@ -19,7 +19,7 @@ namespace MyPeepo.ViewModels
             set { SetProperty(ref isBusy, value); }
         }
 
-        string title = string.Empty;
+        string title = "Detalles";
         public string Title
         {
             get { return title; }
