@@ -11,5 +11,9 @@ namespace MyPeepo.Views
         {
             InitializeComponent();
         }
+        public async void irTareas(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ItemsPage());
+        }
     }
 }

@@ -11,8 +11,8 @@ namespace MyPeepo
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage)); // pagina para ver detalles de los items
+            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage)); //Nueva pagina para agregar item
         }
 
     }
